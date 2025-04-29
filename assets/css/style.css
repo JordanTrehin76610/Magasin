@@ -1,24 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Staatliches&display=swap');
+
+/*--------------------C'EST LE GROS TITRE-------------------*/
 .Name {
-    border: 1px solid red;
-    height: 10vh;
+    height: 8vh;
+    width: 98vw;
+    display: inline-block;
+}
+
+h1 {
+    height: auto;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Staatliches", sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+h2 {
+    width: 65%;
+    height: 8vh;
+    display: inline-block;
+    text-align: end;
+    font-size: 2rem;
+    vertical-align: middle;
+    font-family: "Staatliches", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.Name img {
+    height: 8vh;
+    width: auto;
+    display: inline;
 }
 
 /*-------------------DANS LA BARRE DE NAV------------------*/
 nav {
-    border: 1px solid black;
     height: 5vh;
+    width: 98vw;
+    font-family: "Staatliches", sans-serif;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
 }
 
+.categorie {
+    border: 1px solid red;
+    font-size: 2rem;
+    width: 40rem;
+    text-align: center;
+}
 
 /*---------------------LE CONTENUE-------------------------*/
 main {
     border: 1px solid blue;
-    height: 70vh;
+    height: 90vh;
+    width: 98vw;
+    font-family: "Schibsted Grotesk", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
 }
 
+/*-------------------------LES CASES DES TRUCS VENDUS------------*/
+.article {
+    border: 1px solid black;
+    height: 40vh;
+    width: 20vw;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: block;
+}
+
+.Type {
+    height: 10%;
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+}
+
+.image {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin-left: 3.5rem;
+}
+
+.info {
+    height: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bouton {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    height: 10%;
+}
+
+button {
+    height: 4.5vh;
+    width: 6vw;
+}
 
 /*--------------------LE GROS PIED--------------------------*/
 footer {
     border: 1px solid orange;
     height: 20vh;
+    font-family: "Schibsted Grotesk", sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*-----------Background------------------*/
+body {
+    background-image: url("../img/back.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
