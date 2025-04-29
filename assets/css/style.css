@@ -1,0 +1,24 @@
+.Name {
+    border: 1px solid red;
+    height: 10vh;
+}
+
+/*-------------------DANS LA BARRE DE NAV------------------*/
+nav {
+    border: 1px solid black;
+    height: 5vh;
+}
+
+
+/*---------------------LE CONTENUE-------------------------*/
+main {
+    border: 1px solid blue;
+    height: 70vh;
+}
+
+
+/*--------------------LE GROS PIED--------------------------*/
+footer {
+    border: 1px solid orange;
+    height: 20vh;
+}
