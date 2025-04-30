@@ -5,6 +5,9 @@
     height: 8vh;
     width: 98vw;
     display: inline-block;
+    background-color: black;
+    padding-bottom: 2rem;
+    color: white;
 }
 
 h1 {
@@ -44,28 +47,36 @@ nav {
     font-weight: lighter;
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    color: white;
 }
 
 .categorie {
-    border: 1px solid red;
     font-size: 2rem;
     width: 40rem;
     text-align: center;
+    border: 1px solid rgb(49, 49, 49);
 }
 
 /*---------------------LE CONTENUE-------------------------*/
 main {
-    border: 1px solid blue;
-    height: 90vh;
+    height: 100vh;
     width: 98vw;
     font-family: "Schibsted Grotesk", sans-serif;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    background-color: white;
 }
 
 /*-------------------------LES CASES DES TRUCS VENDUS------------*/
+.exp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .article {
     border: 1px solid black;
     height: 40vh;
@@ -73,6 +84,7 @@ main {
     margin-left: 3rem;
     margin-right: 3rem;
     display: block;
+    background-color: white;
 }
 
 .Type {
@@ -83,13 +95,11 @@ main {
 }
 
 .image {
-    height: 70%;
-    width: 70%;
+    height: 15.3rem;
+    width: auto;
     display: flex;
     align-self: center;
     justify-content: center;
-    border: 1px solid black;
-    margin-left: 3.5rem;
 }
 
 .info {
@@ -107,24 +117,40 @@ main {
 }
 
 button {
-    height: 4.5vh;
+    color: white;
+    height: 4.6vh;
     width: 6vw;
+    background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%)
 }
 
 /*--------------------LE GROS PIED--------------------------*/
 footer {
-    border: 1px solid orange;
-    height: 20vh;
+    height: 35vh;
+    width: 98vw;
     font-family: "Schibsted Grotesk", sans-serif;
-    display: flex;
-    justify-content: space-around;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    border-top: 1px solid rgb(49, 49, 49);
 }
 
+.map {
+    margin: 2rem;
+    display: inline-block;
+    margin-right: 15%;
+}
 
-/*-----------Background------------------*/
-body {
-    background-image: url("../img/back.jpg");
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+.coordonnées {
+    display: inline-block;
+    text-align: center;
+    margin-right: 25%;
+}
+
+.cgu {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 5%;
+
 }
