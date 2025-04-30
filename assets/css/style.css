@@ -50,8 +50,14 @@ h2 {
 
 .categorie {
     font-size: 2rem;
-    width: 40rem;
+    width: 39rem;
     text-align: center;
+    height: 5vh;
+    font-family: "Staatliches", sans-serif;
+    font-weight: lighter;
+    display: inline-block;
+    justify-content: space-between;
+    color: white;
 }
 
 /*---------------------LE CONTENUE-------------------------*/
@@ -135,12 +141,18 @@ footer {
 }
 
 .map {
-    margin: 2rem;
+    margin-left: 2rem;
     display: inline-block;
     margin-right: 15%;
-    height: 80%;
+    height: 100%;
     width: 27%;
 }
+
+iframe {
+    height: 18rem;
+    width: 30rem;
+}
+
 
 .coordonnées {
     display: inline-block;
