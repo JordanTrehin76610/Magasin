@@ -38,7 +38,7 @@ h2 {
 }
 
 /*-------------------DANS LA BARRE DE NAV------------------*/
-nav {
+.nav {
     height: 5vh;
     width: 98vw;
     font-family: "Staatliches", sans-serif;
