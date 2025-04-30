@@ -85,6 +85,7 @@ main {
     margin-right: 3rem;
     display: block;
     background-color: white;
+    box-shadow: 0.2rem 0.2rem black;
 }
 
 .Type {
