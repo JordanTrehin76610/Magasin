@@ -104,7 +104,7 @@ main {
 }
 
 .info {
-    height: 8%;
+    height: 15%;
     display: flex;
     justify-content: space-around;
     align-items: center;
