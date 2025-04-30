@@ -155,3 +155,10 @@ footer {
     margin-top: 5%;
 
 }
+
+
+/*-------------------------POUR LES LIENS-----------------------*/
+a {
+    color: white;
+    text-decoration: none;
+}
