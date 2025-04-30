@@ -96,8 +96,8 @@ main {
 }
 
 .image {
-    height: 15.3rem;
-    width: auto;
+    height: 64%;
+    width: 100%;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -140,6 +140,8 @@ footer {
     margin: 2rem;
     display: inline-block;
     margin-right: 15%;
+    height: 80%;
+    width: 27%;
 }
 
 .coordonnées {
