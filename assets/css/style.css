@@ -52,13 +52,15 @@ h2 {
     font-size: 2rem;
     width: 39rem;
     text-align: center;
-    height: 5vh;
+    height: 2vh;
     font-family: "Staatliches", sans-serif;
     font-weight: lighter;
     display: inline-block;
     justify-content: space-between;
     color: white;
     background: none;
+    margin-top: 0;
+
 }
 
 /*---------------------LE CONTENUE-------------------------*/
