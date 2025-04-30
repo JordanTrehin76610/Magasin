@@ -58,6 +58,7 @@ h2 {
     display: inline-block;
     justify-content: space-between;
     color: white;
+    background: none;
 }
 
 /*---------------------LE CONTENUE-------------------------*/
@@ -120,7 +121,7 @@ main {
     height: 10%;
 }
 
-button {
+.louer {
     color: white;
     height: 4.6vh;
     width: 6vw;
