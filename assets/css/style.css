@@ -5,8 +5,6 @@
     height: 8vh;
     width: 98vw;
     display: inline-block;
-    background-color: black;
-    padding-bottom: 2rem;
     color: white;
 }
 
@@ -47,7 +45,6 @@ nav {
     font-weight: lighter;
     display: flex;
     justify-content: space-between;
-    background-color: black;
     color: white;
 }
 
@@ -55,7 +52,6 @@ nav {
     font-size: 2rem;
     width: 40rem;
     text-align: center;
-    border: 1px solid rgb(49, 49, 49);
 }
 
 /*---------------------LE CONTENUE-------------------------*/
@@ -66,7 +62,7 @@ main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: white;
+    color: white;
 }
 
 /*-------------------------LES CASES DES TRUCS VENDUS------------*/
@@ -78,14 +74,15 @@ main {
 }
 
 .article {
-    border: 1px solid black;
+    border: 1px solid rgb(9, 29, 85, 1);
     height: 40vh;
     width: 20vw;
     margin-left: 3rem;
     margin-right: 3rem;
     display: block;
-    background-color: white;
-    box-shadow: 0.2rem 0.2rem black;
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 15, 46);
+    box-shadow: 0.5rem 0.5rem rgb(7, 22, 63);
 }
 
 .Type {
@@ -121,8 +118,10 @@ button {
     color: white;
     height: 4.6vh;
     width: 6vw;
-    background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%)
+    background-image: linear-gradient(to right, #141E30 0%, #243B55 51%, #141E30 100%)
 }
+
+
 
 /*--------------------LE GROS PIED--------------------------*/
 footer {
@@ -131,9 +130,8 @@ footer {
     font-family: "Schibsted Grotesk", sans-serif;
     display: inline-block;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 1);
     color: white;
-    border-top: 1px solid rgb(49, 49, 49);
 }
 
 .map {
@@ -163,4 +161,8 @@ footer {
 a {
     color: white;
     text-decoration: none;
+}
+
+body {
+    background-image: radial-gradient(circle 1500px at 50% -21.8%, rgba(9, 29, 85, 1) 0.2%, rgba(0, 0, 0, 1) 100.2%);
 }
